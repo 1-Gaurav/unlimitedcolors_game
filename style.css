@@ -1,0 +1,43 @@
+html {
+    font-family: sans-serif;
+    background-image: url('pic5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Adds space between the text and buttons */
+}
+
+.lastResult, .guesses {
+    color: white;
+    padding: 7px;
+    text-align: center; /* Center the text */
+}
+
+button {
+    background-color: #141414;
+    color: #fff;
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 30px;
+    border-style: none;
+    margin-top: 10px; /* Slight margin for spacing */
+}
+
+
+
